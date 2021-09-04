@@ -1,0 +1,170 @@
+
+html, body 
+{
+    margin: 0px;
+}
+   
+.be-red
+{
+    background-color: #000;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.3);
+    
+}
+ 
+#logo{
+    font-size: 1.2em;
+    background: #000;
+}
+   
+.no-margin{
+    margin: 0px;
+}
+   
+.white
+{
+    color: #fff;
+}
+   
+.large-padding
+{
+    padding: 16px;
+}
+//barra de navegacion
+.col-md{
+    list-style: none;
+   
+}
+
+.col-md:hover{
+    font-size: 18px;
+}
+
+.no-list{
+    text-decoration: none;
+    color: ghostwhite;
+}
+
+.box-form{
+    padding: 20px;
+    transition: 0.3ms;
+    
+}
+.box-form:hover{
+    transform: scale(1.005, 1.05);
+    -webkit-box-shadow: 4px 4px 28px 7px rgba(0,0,0,0.34);
+    -moz-box-shadow: 4px 4px 28px 7px rgba(0,0,0,0.34);
+    box-shadow: 4px 4px 28px 7px rgba(0,0,0,0.34);
+}
+
+.field{
+    margin-top: 1em;
+}
+
+.form-control{
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+    width:100%;
+    display: block;
+    padding: 10px 0px;
+    font-size: 1.2em;
+    padding: 12px;
+}
+
+.btn-control {
+    margin-top: 50px;
+    border: none;
+    border-radius: 4px;
+    background: deepskyblue;
+    padding: 15px 20px;
+    position: absolute; 
+
+    color: #fff;
+    width: 130px;
+    height: 70px;
+    font-size: 25px;
+    transition: 0.3ms;
+}
+
+.btn-control:hover{
+    transform: scale(1.005, 1.05);
+}
+
+.btn-login {
+    border: none;
+    border-radius: 4px;
+    background: deepskyblue;
+    padding: 10px;
+    position: absolute; 
+    color: #fff;
+    font-size: 22px;
+}
+.top-space {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 300px;
+    color: red;
+    background: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0,0 ,0.4);
+    transition: 0.3ms;
+}
+.top-space:hover{
+    transform: scale(1.05, 1.05);
+}
+
+.text-left{
+    text-align: left;
+}
+
+.blue{
+    color: dodgerblue;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.article-height{
+    height: 300px;
+}
+
+.background-cover{
+    background-position: center;
+    background-size: cover;
+}
+
+.be-big{ 
+    font-size: 2em;
+}
+
+.be-small {
+    font-size: 12px;;
+}
+
+.bottom-space{
+    margin-bottom: 2em;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.grey{
+    color: darkgreen;
+}
